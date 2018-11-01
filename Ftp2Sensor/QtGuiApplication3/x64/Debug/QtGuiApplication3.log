@@ -1,3 +1,12 @@
-﻿D:\VS2017\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(944,5): warning MSB8027: 名为 qrc_qtguiapplication3.cpp 的两个或更多文件将生成到同一位置的输出。这会导致错误的生成结果。   调用的文件是 GeneratedFiles\qrc_qtguiapplication3.cpp, .\GeneratedFiles\qrc_qtguiapplication3.cpp。
+﻿  Moc'ing qtguiapplication3.h...
+  Rcc'ing qtguiapplication3.qrc...
+  Uic'ing qtguiapplication3.ui...
+  RCC: Warning: No resources in 'E:\GitCode\Ftp2Sensor\QtGuiApplication3\qtguiapplication3.qrc'.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(944,5): warning MSB8027: 名为 qrc_qtguiapplication3.cpp 的两个或更多文件将生成到同一位置的输出。这会导致错误的生成结果。   调用的文件是 GeneratedFiles\qrc_qtguiapplication3.cpp, .\GeneratedFiles\qrc_qtguiapplication3.cpp。
+  qrc_qtguiapplication3.cpp
+  main.cpp
   qtguiapplication3.cpp
-  QtGuiApplication3.vcxproj -> E:\QtProject\Ftp2Sensor\x64\Debug\QtGuiApplication3.exe
+  moc_qtguiapplication3.cpp
+  LINK : 没有找到 E:\GitCode\Ftp2Sensor\x64\Debug\\QtGuiApplication3.exe 或上一个增量链接没有生成它；正在执行完全链接
+x64\Debug\qrc_qtguiapplication3.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+  QtGuiApplication3.vcxproj -> E:\GitCode\Ftp2Sensor\x64\Debug\QtGuiApplication3.exe
